@@ -22,9 +22,9 @@ const facts = [
 function johnLennonFacts(facts) {
   const bigFacts = []
   
-  while (let i = 0, l = facts.length; i < l; i++){
-  console.log(`$facts + "!!!`)
-  }
+  let i = 0
+  while (i < facts.length){
+  
   return shoutedFacts;
 }
 
