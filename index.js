@@ -20,13 +20,13 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  const bigFacts = []
-  
+  const shoutedFacts = []
+
   let i = 0
   while (i < facts.length) {
-    bigFacts.push(`${facts[i]}!!!`)
+    shoutedFacts.push(`${facts[i]}!!!`)
     i++
-  return bigFacts;
-}
-  
+  }
+
+  return shoutedFacts
 }
