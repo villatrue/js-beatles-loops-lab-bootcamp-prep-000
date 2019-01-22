@@ -30,14 +30,3 @@ function johnLennonFacts(facts) {
 }
   
 }
-function johnLennonFacts(facts) {
-  const shoutedFacts = []
-
-  let i = 0
-  while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
-    i++
-  }
-
-  return shoutedFacts
-}
