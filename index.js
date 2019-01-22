@@ -23,17 +23,8 @@ function johnLennonFacts(facts) {
   const bigFacts = []
   
   let i = 0
-  while (i < facts.length){
-  
-  return shoutedFacts;
-}
-
-function johnLennonFacts(facts) {
-  const shoutedFacts = []
-
-  let i = 0
-  
-  }
-
-  return shoutedFacts
-}
+  while (i < facts.length) {
+    bigFacts.push(`${facts[i]}!!!`)
+    i++
+  return bigFacts;
+}}
